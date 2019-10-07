@@ -1,6 +1,7 @@
 
 function calculate(num1,num2,operation) {
 
+
     const actualNum1 = Number(num1)
     const actualNum2 = Number(num2)
 
@@ -40,5 +41,7 @@ function calculate(num1,num2,operation) {
     return "Sorry, that's not a mathematical operation!"
     }
 }
+
+
 
 module.exports = calculate;
