@@ -27,7 +27,9 @@ function calculate(num1,num2,operation) {
     } else if (operation==='modulus') {
     return actualNum1 % actualNum2;
     } else if (operation==='mod') {
-    return actualNum1 % actualNum2;}
+    return actualNum1 % actualNum2;
+    } else if (operation==='mod') {
+    return actualNum1 % actualNum2c;}
     else {
     return "Sorry, that's not a mathematical operation!"
     }
